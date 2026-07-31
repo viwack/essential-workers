@@ -30,15 +30,21 @@ All neighborhood data is linked at the **2020 census tract** level (`TRACT_FIPS2
 
 | Dataset | Source | Notes |
 |---|---|---|
-| Essential Workers + Socio-demographics | ICPSR 38528 (NaNDA) | 2016–2020 ACS estimates |
-| Pollution / TRI Facilities | ICPSR 38597 | Filtered to 2020 |
-| Grocery Stores | NaNDA (`nanda_grocery_Tract20_1990-2021_01P.csv`) | Filtered to 2020 |
-| Healthcare Services | `healthcare_services.csv` | Ambulatory / walk-in care; filtered to 2020 |
-| Parks | ICPSR 38586 | `38586-0003-Data.tsv` |
-| Convenience Stores | `convenience_stores.csv` | Filtered to 2020 |
-| Dollar Stores | `dollar_stores.csv` | Filtered to 2020 |
-| RUCA Codes (urbanicity) | `RUCA-codes-2020-tract.xlsx` | Collapsed to 4-category RUCA4 |
-| Broadband Access | ICPSR 38567 | Loaded but not yet merged |
+| Socio-demographics | https://doi.org/10.3886/ICPSR38528.v6 | 2016–2020 ACS estimates |
+| Pollution / TRI Facilities | https://doi.org/10.3886/ICPSR38597.v2
+| Filtered to 2020 |
+| Grocery Stores | https://doi.org/10.3886/ICPSR209313.V2 | Filtered to 2020 |
+| Healthcare Services | https://doi.org/10.3886/ICPSR209050.V2
+| Ambulatory / walk-in care; filtered to 2020 |
+| Parks | https://doi.org/10.3886/ICPSR38586.v2 | `38586-0003-Data.tsv` |
+| Convenience Stores | https://doi.org/10.3886/ICPSR208907.V2
+| Filtered to 2020 |
+| Dollar Stores | https://doi.org/10.3886/ICPSR209324.V2
+| Filtered to 2020 |
+| RUCA Codes (urbanicity) | https://doi.org/10.3886/ICPSR38606.v1
+| Collapsed to 4-category RUCA4 |
+| Essential Workers | https://doi.org/10.3886/ICPSR302178.V1
+| Outcome Variable |
 
 The merged analytic file is written to `everything.csv`.
 
