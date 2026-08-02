@@ -1,7 +1,8 @@
 # NaNDA Essential Workers Project
 
 Analysis of neighborhood built-environment characteristics across US census tracts stratified by essential worker concentration, with a focus on conditions present during the COVID-19 pandemic (2020).
-DOI: [10.5281/zenodo.21764967]([10.5281/zenodo.21764967](https://doi.org/10.5281/zenodo.21764967))
+
+DOI: [10.5281/zenodo.21764967](https://doi.org/10.5281/zenodo.21764967)
 
 ## Research Overview
 
